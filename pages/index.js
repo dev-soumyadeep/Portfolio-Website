@@ -112,7 +112,12 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={fig} layout="fill" objectFit="contain" />
+              <Image
+                src={fig}
+                alt="figure3d"
+                layout="fill"
+                objectFit="contain"
+              />
             </div>
           </div>
         </section>
@@ -121,7 +126,7 @@ export default function Home() {
           <div className="container about_container">
             <div className="about_me">
               <div className="about_me-image">
-                <Image src={fig1} width={500} height={500} />
+                <Image alt="my-image" src={fig1} width={500} height={500} />
               </div>
             </div>
             <div className="about_content">
@@ -181,7 +186,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg shadow-teal-600/60 p-10 rounded-xl my-10  bg-grey flex-1">
-              <Image src={blc} width={120} height={120} />
+              <Image src={blc} alt="blockchain" width={120} height={120} />
               <h3 className="text-lg font-medium pt-8 pb-2  font-MontserratAlternatesMedium text-teal-500">
                 Blockchain Development
               </h3>
@@ -206,7 +211,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg  shadow-teal-600/60 p-10 rounded-xl my-10 bg-teal flex-1">
-              <Image src={wd} width={120} height={120} />
+              <Image src={wd} alt="frontend" width={120} height={120} />
               <h3 className="text-lg font-medium pt-8 pb-2  font-MontserratAlternatesMedium text-teal-500">
                 Frontend Development
               </h3>
@@ -230,7 +235,7 @@ export default function Home() {
               </p>
             </div>
             <div className="text-center shadow-lg  shadow-teal-600/60 p-10 rounded-xl my-10  flex-1">
-              <Image src={be} width={120} height={120} />
+              <Image src={be} alt="backend" width={120} height={120} />
               <h3 className="text-lg font-MontserratAlternatesMedium font-medium pt-8 pb-2  text-teal-500 ">
                 Backend Development
               </h3>
