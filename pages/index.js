@@ -326,8 +326,8 @@ export default function Home() {
                 Soumyadeep's <span className="text-teal-500">Portfolio</span>
               </p>
               <p className="text-white font-bold text-2xl pb-6 font-MontserratAlternatesMedium">
-                Contributing in Technology that builds{" "}
-                <span className="text-teal-500">Future</span>
+                Contributing in Technology that builds
+                <span className="text-teal-500"> Future</span>
               </p>
               <a
                 href="https://hashnode.com/@soumyadeep21"
@@ -337,8 +337,8 @@ export default function Home() {
                 <div className="flex gap-6 pb-5 text-blue-700">
                   <SiHashnode className="text-4xl cursor-pointer hover:text-blue-600" />
                   <label className="font-Aboreto font-semibold text-white">
-                    Follow Me{" "}
-                    <span className="text-blue-500 font-bold">@Hashnode</span>{" "}
+                    Follow Me
+                    <span className="text-blue-500 font-bold"> @Hashnode </span>
                     For Exciting Technical contents
                   </label>
                 </div>
