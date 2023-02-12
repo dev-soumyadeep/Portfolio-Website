@@ -17,6 +17,8 @@ import { SiHashnode } from "react-icons/si";
 import { HiAcademicCap } from "react-icons/hi";
 import { SiBookstack } from "react-icons/si";
 import { FaSchool } from "react-icons/fa";
+import useDownloader from "react-use-downloader";
+// import resume from "../public/Soumyadeep's_resume";
 
 const RESUME_URL = "../public/Soumyadeep's_resume.pdf";
 export default function Home() {
@@ -42,21 +44,7 @@ export default function Home() {
     setMail("");
     setMessage("");
   };
-  const downloadResume = (url, e) => {
-    e.preventDefault();
-    fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const blobURL = window.URL.createObjectURL(new Blob([blob]));
-        const filename = url.split("/").pop();
-        const aTag = document.createElement("a");
-        aTag.href = blobURL;
-        aTag.setAttribute("download", filename);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-      });
-  };
+
   return (
     <div className={darkMode ? "dark" : ""}>
       <Head>
@@ -70,13 +58,15 @@ export default function Home() {
             <h1 className="font-burtons text-xl">SRoy</h1>
             <ul className="flex items-center">
               <li>
-                <button
+                <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8 "
-                  onClick={(e) => downloadResume(RESUME_URL, e)}
-                  download
+                  href="/Soumyadeep's_resume.pdf"
+                  alt="alt text"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Resume
-                </button>
+                </a>
               </li>
             </ul>
           </nav>
