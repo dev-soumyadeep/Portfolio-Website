@@ -112,7 +112,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h2>About Me</h2>
+          <h2 classname="text-3xl py-1 pt-7 text-white font-MontserratAlternatesExtrabold>About Me"></h2>
           <div className="container about_container">
             <div className="about_me">
               <div className="about_me-image">
