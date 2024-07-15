@@ -10,6 +10,10 @@ module.exports = {
     YOUR_TEMPLATE_ID: process.env.YOUR_TEMPLATE_ID,
     YOUR_PUBLIC_KEY: process.env.YOUR_PUBLIC_KEY,
   },
+  images: {
+    unoptimized: true,
+  },
 };
+
 
 module.exports = nextConfig;

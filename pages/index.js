@@ -1,5 +1,6 @@
 import Head from "next/head";
 import React, { useRef } from "react";
+import Link from 'next/link';
 import emailjs from "@emailjs/browser";
 import {
   AiFillTwitterCircle,
