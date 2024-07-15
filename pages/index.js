@@ -20,7 +20,7 @@ import { FaSchool } from "react-icons/fa";
 import useDownloader from "react-use-downloader";
 // import resume from "../public/Soumyadeep's_resume";
 
-const RESUME_URL = "../public/Soumyadeep's_resume.pdf";
+const RESUME_URL = "../public/SOUMYADEEP ROY Software Developer--f (1).pdf";
 export default function Home() {
   const [darkMode, setDarkMode] = useState(true);
   const form = useRef();
