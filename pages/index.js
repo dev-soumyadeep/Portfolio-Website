@@ -142,7 +142,7 @@ export default function Home() {
                     Academic Achivement
                   </h4>
                   <small className=" text-teal-600 font-Aboreto font-semibold">
-                    8+ CGPA upto 3rd semester
+                    8+ CGPA
                   </small>
                 </article>
                 <article className="about_card shadow-lg shadow-teal-600 rounded-xl text-center">
